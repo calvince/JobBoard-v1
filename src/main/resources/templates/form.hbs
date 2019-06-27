@@ -1,0 +1,19 @@
+{{#partial "content"}}
+
+    <form action="/new/job" method="post">
+        Title:<br>
+        <input type="text" name="title" value="enter a title" id="title">
+        <br>
+        Description:<br>
+        <input type="text" name="description" value="enter a desc here" id="description">
+        <br><br>
+        Tel:<br>
+        <input type="number" name="tel" value="enter phone no" id="tel">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+{{/partial}}
+
+
+{{> layout.hbs}}
